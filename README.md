@@ -27,7 +27,7 @@ Also you can contribute new idea to me.
 #### Gradle
 ```groovy
 dependencies {
-   compile 'me.gujun.android.taggroup:library:1.4@aar'
+   api 'me.gujun.android.taggroup:library:1.4@aar'
 }
 ```
 

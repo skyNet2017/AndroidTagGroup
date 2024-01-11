@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 21
-    buildToolsVersion '21.1.1'
+    compileSdkVersion 33
+
     defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 21
+        minSdkVersion 19
+        targetSdkVersion 33
     }
     lintOptions {
         abortOnError false
@@ -13,6 +13,6 @@ android {
     }
 }
 // Used to push in maven
-apply from: '../maven-push.gradle'
+//apply from: '../maven-push.gradle'
 dependencies {
 }
